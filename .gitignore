@@ -10,5 +10,8 @@ backend/media/
 backend/staticfiles/
 node_modules/
 frontend/dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
 *.sqlite3
 
