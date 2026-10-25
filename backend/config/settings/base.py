@@ -1,8 +1,10 @@
 import os
 from datetime import timedelta
 from pathlib import Path
+from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parents[2]
+load_dotenv(BASE_DIR / ".env")
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-development-only-key-change-this-before-deployment")
 DEBUG = os.getenv("DJANGO_DEBUG", "false").lower() == "true"
