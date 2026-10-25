@@ -1,2 +1,2 @@
-html,body,#root{min-height:100%;margin:0}*{box-sizing:border-box}body{background:#f4f6f8;color:#17202a}a{color:inherit;text-decoration:none}@media print{.no-print{display:none!important}body{background:#fff}}
+html,body,#root{min-height:100%;margin:0}*{box-sizing:border-box}body{background:#f5f7fa;color:#243447;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}::selection{background:#d8eaf5;color:#123f5f}::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-thumb{background:#c8d1db;border:2px solid transparent;border-radius:8px;background-clip:padding-box}@media print{.no-print{display:none!important}body{background:#fff}}
 
